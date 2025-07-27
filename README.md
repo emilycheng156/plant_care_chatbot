@@ -72,17 +72,19 @@ This project shows how to build a specialized, high-accuracy chatbot by:
 
 It’s a foundation for scalable, trustworthy AI applications — from plant care to tech support and beyond.
 
-## 📈 Key Features
+### 🔄 Next Steps
 
-- ✅ Retrieval-augmented generation (RAG) over custom documents
-- ✅ Claude 3 model integration with zero infrastructure setup
-- ✅ Dynamic answers from personalized plant data
-- ✅ Modular architecture (easy to extend with symptom diagnosis or image input)
-
+To improve the chatbot’s performance even further, the next phase will focus on:
+- **Prompt engineering** to guide tone, completeness, and contextual accuracy.
+- **Fine-tuning** on more targeted plant care data to handle edge cases like pest issues or seasonal needs.
+- Exploring **multi-turn conversation handling** so the chatbot can follow up or clarify when users ask complex or vague questions.
 
 
 
 ## 📎 Related Links
 
-- [Amazon Bedrock Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
-- [Claude Model Details](https://www.anthropic.com/index/claude)
+- 🔁 [What is Retrieval-Augmented Generation (RAG)?](https://www.pinecone.io/learn/retrieval-augmented-generation/)
+- 🤖 [Amazon Bedrock Overview](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
+- 🧠 [Meta’s LLaMA Models](https://ai.meta.com/llama/)
+- 📊 [Titan Text Embeddings v2 (AWS)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html#foundation-models-titan)
+- 🔍 [Amazon OpenSearch Serverless](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html)
