@@ -26,7 +26,8 @@ Instead of scraping the internet, this chatbot retrieves relevant content from a
 ---
 
 ## 🧠 How It Works
-<img width="800" height="450" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/35c08eac-6eaa-407f-880a-093761724033" />
+
+<img width="822" height="427" alt="Screenshot 2025-07-27 at 4 33 33 PM" src="https://github.com/user-attachments/assets/2a82a728-983a-416f-bf2b-b1d1153fa5ee" />
 
 - 📄 **Amazon S3** holds structured plant care docs (PDFs, guides, etc.)
 - 🧠 **Titan Text Embeddings v2** converts documents into semantic vectors
