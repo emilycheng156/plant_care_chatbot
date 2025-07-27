@@ -63,14 +63,19 @@ It’s a practical example of how RAG can be used to deliver **niche, reliable A
 
 ---
 
-## 📝 Summary
+### 📝 What I Learned
 
-This project shows how to build a specialized, high-accuracy chatbot by:
-- Applying Retrieval-Augmented Generation (RAG)
-- Using Bedrock’s serverless infrastructure
-- Focusing on high-quality, domain-specific knowledge
+Through this project, I gained hands-on experience with building a Retrieval-Augmented Generation (RAG) chatbot using Amazon Bedrock and related AWS services. I learned how to:
 
-It’s a foundation for scalable, trustworthy AI applications — from plant care to tech support and beyond.
+- Set up a **Knowledge Base in Amazon Bedrock**, connecting it to documents stored in Amazon S3
+- Use **Titan Text Embeddings v2** to convert text into semantic vector representations
+- Configure and deploy **Amazon OpenSearch Serverless** as a vector store for fast, meaningful retrieval
+- Choose and apply a suitable **foundation model** (LLaMA 3.3 70B Instruct) for generating responses
+- Understand the difference between **on-demand vs. provisioned inference**, and how to troubleshoot model invocation issues
+- Enable **retrieval-augmented generation** to ground responses in specific, trusted documents and reduce hallucination
+- Improve response quality through **prompt engineering** and plan for **fine-tuning** to better handle edge cases
+
+Overall, this project gave me a practical understanding of how to integrate multiple AWS services to build a scalable, domain-specific chatbot.
 
 ### 🔄 Next Steps
 
