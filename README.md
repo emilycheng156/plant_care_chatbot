@@ -35,8 +35,7 @@ Instead of scraping the internet, this chatbot retrieves relevant content from a
 This RAG architecture ensures that every answer is grounded in reliable source material — no hallucination, no guesswork.
 ## 💬 Example Interactions
 
-> **Q:** How often should I water a snake plant?  
-> **A:** Water every 2–3 weeks, allowing the soil to fully dry out between waterings. In winter, reduce watering frequency.
+<img width="441" height="353" alt="Screenshot 2025-07-27 at 3 50 23 PM" src="https://github.com/user-attachments/assets/3c1ed3af-cadf-45bb-a213-a5832d0ab33f" />
 
 > **Q:** What causes yellowing leaves in pothos?  
 > **A:** Overwatering is a common cause. Ensure the pot has good drainage, and let the top inch of soil dry before watering again.
@@ -44,6 +43,7 @@ This RAG architecture ensures that every answer is grounded in reliable source m
 These responses are generated using context pulled from the knowledge base — not from web searches or general training data.
 
 ---
+
 
 ## 🧰 Technologies Used
 
@@ -73,6 +73,7 @@ This project shows how to build a specialized, high-accuracy chatbot by:
 - Focusing on high-quality, domain-specific knowledge
 
 It’s a foundation for scalable, trustworthy AI applications — from plant care to tech support and beyond.
+
 ## 📈 Key Features
 
 - ✅ Retrieval-augmented generation (RAG) over custom documents
@@ -81,23 +82,9 @@ It’s a foundation for scalable, trustworthy AI applications — from plant car
 - ✅ Modular architecture (easy to extend with symptom diagnosis or image input)
 
 
-## 📝 Lessons Learned
 
-This project helped me:
 
-- Deepen my understanding of LLM grounding and orchestration
-- Explore semantic search and knowledge base construction
-- Integrate multiple AWS services into a single working pipeline
-
----
-
-## 🖼️ Demo or Screenshot
-
-_(Add a screenshot or Loom video link here)_
-
----
-
-## 📎 Related Repos / Links
+## 📎 Related Links
 
 - [Amazon Bedrock Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
 - [Claude Model Details](https://www.anthropic.com/index/claude)
