@@ -52,7 +52,8 @@ In this example, the chatbot answers “What causes yellowing leaves in pothos?�
 | Vector Store         | Amazon OpenSearch Serverless         |
 | File Storage         | Amazon S3                            |
 | Orchestration Layer  | Amazon Bedrock Agent + Knowledge Base|
-<img width="789" height="405" alt="Screenshot 2025-07-27 at 4 15 48 PM" src="https://github.com/user-attachments/assets/442d8338-4e8a-40fc-820f-cbdca59af708" />
+
+<img width="960" height="720" alt="Untitled drawing" src="https://github.com/user-attachments/assets/35c08eac-6eaa-407f-880a-093761724033" />
 
 ---
 
