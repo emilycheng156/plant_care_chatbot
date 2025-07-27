@@ -33,41 +33,46 @@ Instead of scraping the internet, this chatbot retrieves relevant content from a
 - 🤖 **Amazon Bedrock Agent** (LLaMA 3.3 70B) answers questions using retrieved content
 
 This RAG architecture ensures that every answer is grounded in reliable source material — no hallucination, no guesswork.
+## 💬 Example Interactions
 
+> **Q:** How often should I water a snake plant?  
+> **A:** Water every 2–3 weeks, allowing the soil to fully dry out between waterings. In winter, reduce watering frequency.
 
-## ⚙️ Architecture
+> **Q:** What causes yellowing leaves in pothos?  
+> **A:** Overwatering is a common cause. Ensure the pot has good drainage, and let the top inch of soil dry before watering again.
 
-- **Amazon S3** stores plant care documents in `.txt`, `.pdf`, and `.md` formats
-- **Knowledge Base** uses semantic embedding and vector similarity search
-- **Bedrock Agent** generates responses grounded in the retrieved content
-- All components are no-code/low-code using AWS services
-
----
-
-## 🧪 Sample Interaction
-
-**User:**  
-> How often should I water my monstera plant?
-
-**Bot:**  
-> Monstera prefers its soil to dry out between waterings. Water every 1–2 weeks depending on the humidity and light levels. Reduce frequency in winter.
-
-(*Backed by retrieved S3 documents on tropical plant care.*)
+These responses are generated using context pulled from the knowledge base — not from web searches or general training data.
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Technologies Used
 
-| Component     | Technology                      |
-|---------------|----------------------------------|
-| LLM           | Amazon Bedrock (Claude 3 Sonnet) |
-| Retrieval     | Bedrock Knowledge Bases          |
-| Vector DB     | Amazon OpenSearch                |
-| Document Store| Amazon S3                        |
-| Language/API  | Python (Boto3)                   |
+| Component             | Service / Model                     |
+|----------------------|--------------------------------------|
+| Foundation Model     | Meta LLaMA 3.3 70B (Bedrock)         |
+| Embedding Model      | Titan Text Embeddings v2             |
+| Vector Store         | Amazon OpenSearch Serverless         |
+| File Storage         | Amazon S3                            |
+| Orchestration Layer  | Amazon Bedrock Agent + Knowledge Base|
 
 ---
 
+## 🌱 Why This Matters
+
+By combining **semantic search** with **natural language generation**, this chatbot makes plant care knowledge accessible, specific, and trustworthy — all without requiring users to know the right keywords or source.
+
+It’s a practical example of how RAG can be used to deliver **niche, reliable AI answers** in a noisy online world.
+
+---
+
+## 📝 Summary
+
+This project shows how to build a specialized, high-accuracy chatbot by:
+- Applying Retrieval-Augmented Generation (RAG)
+- Using Bedrock’s serverless infrastructure
+- Focusing on high-quality, domain-specific knowledge
+
+It’s a foundation for scalable, trustworthy AI applications — from plant care to tech support and beyond.
 ## 📈 Key Features
 
 - ✅ Retrieval-augmented generation (RAG) over custom documents
@@ -75,15 +80,6 @@ This RAG architecture ensures that every answer is grounded in reliable source m
 - ✅ Dynamic answers from personalized plant data
 - ✅ Modular architecture (easy to extend with symptom diagnosis or image input)
 
----
-
-## 📌 Next Steps
-
-- [ ] Add web-based frontend using Lambda + API Gateway  
-- [ ] Enable user-uploaded plant care PDFs  
-- [ ] Fine-tune embedding chunking and scoring thresholds  
-
----
 
 ## 📝 Lessons Learned
 
