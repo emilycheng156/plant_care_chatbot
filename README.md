@@ -32,6 +32,7 @@ Instead of scraping the internet, this chatbot retrieves relevant content from a
 - 🔍 **Amazon OpenSearch Serverless** stores and retrieves embeddings
 - 🤖 **Amazon Bedrock Agent** (LLaMA 3.3 70B) answers questions using retrieved content
 
+<img width="960" height="720" alt="Untitled drawing" src="https://github.com/user-attachments/assets/35c08eac-6eaa-407f-880a-093761724033" />
 This RAG architecture ensures that every answer is grounded in reliable source material — no hallucination, no guesswork.
 ## 💬 Example Interactions
 
@@ -53,7 +54,7 @@ In this example, the chatbot answers “What causes yellowing leaves in pothos?�
 | File Storage         | Amazon S3                            |
 | Orchestration Layer  | Amazon Bedrock Agent + Knowledge Base|
 
-<img width="960" height="720" alt="Untitled drawing" src="https://github.com/user-attachments/assets/35c08eac-6eaa-407f-880a-093761724033" />
+
 
 ---
 
