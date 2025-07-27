@@ -35,12 +35,10 @@ Instead of scraping the internet, this chatbot retrieves relevant content from a
 This RAG architecture ensures that every answer is grounded in reliable source material — no hallucination, no guesswork.
 ## 💬 Example Interactions
 
-<img width="441" height="353" alt="Screenshot 2025-07-27 at 3 50 23 PM" src="https://github.com/user-attachments/assets/3c1ed3af-cadf-45bb-a213-a5832d0ab33f" />
 
-> **Q:** What causes yellowing leaves in pothos?  
-> **A:** Overwatering is a common cause. Ensure the pot has good drainage, and let the top inch of soil dry before watering again.
+<img width="303" height="497" alt="Screenshot 2025-07-27 at 3 55 18 PM" src="https://github.com/user-attachments/assets/82a252b9-b30d-444f-a7d7-e1891c292936" />
 
-These responses are generated using context pulled from the knowledge base — not from web searches or general training data.
+In this example, the chatbot answers “What causes yellowing leaves in pothos?” with a clear, in-depth explanation that’s actually useful. Instead of just listing possible causes, it explains the most common ones—like overwatering, root rot, and nutrient deficiencies—and even tells you how to check for root rot by looking at the condition of the roots. Unlike a regular Google search, which would return a list of blogs, forums, and websites you have to sift through yourself, this chatbot delivers a direct, trustworthy response in one place. It also cites the exact sources it used, so you know where the information came from and can get further details if needed.
 
 ---
 
