@@ -5,21 +5,35 @@ A natural language chatbot that provides accurate and personalized plant care ad
 
 ---
 
-## 🧠 Problem
+## 🔍 Problem
 
-Most plant care advice online is fragmented, generalized, or buried in forums and blogs. I wanted to build a tool that could:
+Most plant care advice online is **fragmented**, **overly generalized**, or **buried in forums and blog posts**. You often have to sift through dozens of pages to answer simple but specific questions like:
 
-- Understand user questions in natural language
-- Search through curated plant care documents
-- Give precise, helpful responses tailored to specific plants
+- How much light does a pothos actually need?
+- Why are my monstera leaves curling?
+- What soil mix should I use for succulents?
+
+Search results may contradict each other, lack scientific grounding, or assume conditions that don’t apply to your home. The result is confusion, trial-and-error, and unhealthy plants.
 
 ---
 
 ## 💡 Solution
 
-Using **Amazon Bedrock**, I created a chatbot that connects to a custom **knowledge base** built from S3 documents (guides, tips, and care sheets). The bot uses **RAG** with a foundation model (Claude 3 Sonnet) to pull contextually relevant content and generate helpful responses.
+I built a **Retrieval-Augmented Generation (RAG) chatbot** using **Amazon Bedrock** that gives accurate, consistent answers to plant care questions — sourced from structured, vetted horticultural documents.
+
+Instead of scraping the internet, this chatbot retrieves relevant content from a **predefined plant care knowledge base** and uses a foundation model to generate clear, helpful responses.
 
 ---
+
+## 🧠 How It Works
+
+- 📄 **Amazon S3** holds structured plant care docs (PDFs, guides, etc.)
+- 🧠 **Titan Text Embeddings v2** converts documents into semantic vectors
+- 🔍 **Amazon OpenSearch Serverless** stores and retrieves embeddings
+- 🤖 **Amazon Bedrock Agent** (LLaMA 3.3 70B) answers questions using retrieved content
+
+This RAG architecture ensures that every answer is grounded in reliable source material — no hallucination, no guesswork.
+
 
 ## ⚙️ Architecture
 
