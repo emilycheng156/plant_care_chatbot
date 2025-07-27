@@ -26,17 +26,16 @@ Instead of scraping the internet, this chatbot retrieves relevant content from a
 ---
 
 ## 🧠 How It Works
-
+<img width="800" height="600" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/35c08eac-6eaa-407f-880a-093761724033" />
 - 📄 **Amazon S3** holds structured plant care docs (PDFs, guides, etc.)
 - 🧠 **Titan Text Embeddings v2** converts documents into semantic vectors
 - 🔍 **Amazon OpenSearch Serverless** stores and retrieves embeddings
 - 🤖 **Amazon Bedrock Agent** (LLaMA 3.3 70B) answers questions using retrieved content
 This RAG architecture ensures that every answer is grounded in reliable source material — no hallucination, no guesswork.
-<img width="960" height="720" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/35c08eac-6eaa-407f-880a-093761724033" />
+
 
 ---
 ## 💬 Example Interactions
-
 
 <img width="303" height="497" alt="Screenshot 2025-07-27 at 3 55 18 PM" src="https://github.com/user-attachments/assets/82a252b9-b30d-444f-a7d7-e1891c292936" />
 
